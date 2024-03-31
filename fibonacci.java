@@ -1,11 +1,7 @@
-import java.util.Scanner;
-
-public class fibonacci {
+public class Fibonacci {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        System.out.print("Enter the number : ");
-        int n = s.nextInt();
-
+        int n = 10; // Change the value of n to generate Fibonacci series for a specific number of terms
+        
         System.out.println("Fibonacci Series:");
         for (int i = 0; i < n; i++) {
             System.out.print(fibonacci(i) + " ");
