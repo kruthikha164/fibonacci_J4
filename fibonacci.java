@@ -1,4 +1,4 @@
-public class Fibonacci {
+public class fibonacci {
     public static void main(String[] args) {
         int n = 10; // Change the value of n to generate Fibonacci series for a specific number of terms
         
